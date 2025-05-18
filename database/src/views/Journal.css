@@ -1,0 +1,25 @@
+@media screen and (max-width: 1130px) {
+    .browse_desktop_issue { display:none  }
+    .browse_mobile_issue{
+        display:block;
+        margin-top:0px;
+        width: calc(100% - 0px);
+        padding: 0rem 2rem 0;
+        font-size: 20px;
+        line-height: 24px;
+        border-bottom: 1px solid #ddd;
+        background-color: #f2f2f2
+    }
+    .journal-toc aside .related-bookshelves {
+        padding-bottom: 0rem;
+        display: inline-block;
+    }
+    .journal-toc aside .related-bookshelves {
+        padding: 0rem 2rem 0;
+        font-weight: 500;
+    }
+    #main-content{
+        margin-top: 100px;
+    }
+}
+

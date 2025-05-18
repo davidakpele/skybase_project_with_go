@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Gotham SSm A";
+    src: url("../assets/fonts/Gotham-Medium_Web.woff2") format("woff2"),
+        url("../assets/fonts/Gotham-Bold_Web.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham SSm B";
+    src: url("../assets/fonts/Gotham-Medium_Web.woff2") format("woff2"),
+            url("../assets/fonts/Gotham-Bold_Web.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.input_banner_search_master{
+    height: 20px !important
+}
+.home-subject-list{
+    font-family: "Gotham SSm A", "Gotham SSm B";
+}
+@media screen and (max-width: 1130px) {
+    .subjects-library-attribution{
+        margin-top: 15px !important;
+    }
+    .subjects-search-sub-head {
+        font-size: 7px !important;
+    }
+    .mobileVisibility{
+        display: none !important;
+    } 
+}
+
+.error-search:after {
+    position: fixed;
+    left: 600px;
+    top: 0;
+    bottom: 0;
+    width: 30rem;
+    background: rgba(255, 255, 255, .25);
+    box-sizing: border-box;
+    z-index: -1;
+    content: '';
+}
+
+.subjects-search-container.complete:before {
+    border-left-color: #ddd;
+}
+
+.subjects-search-container.complete:after,
+.subjects-search-container.complete:before {
+    position: absolute;
+    right: -2.5rem;
+    top: 30%;
+    z-index: 1000;
+    height: 0;
+    width: 0;
+    border: solid transparent;
+    border-width: 3rem 20px;
+    margin-top: -30px;
+    content: ' ';
+    pointer-events: none;
+}
+
+.subjects-search-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0 90px;
+    background: #ddd;
+    height: 6rem;
+}
+
+.subjects-search-container{
+    padding: 0 20px !important;
+}
+.subjects-container{
+    padding: 15px !important;
+}
+.__bd7a3.subjects .search-pane .filter-container{
+    top: calc(3rem + .01rem) !important;
+}
+.__bd7a3.subjects .search-pane .result-container{
+    top: 7rem !important
+}
